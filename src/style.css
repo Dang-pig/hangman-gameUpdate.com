@@ -1,0 +1,69 @@
+.butt2 {
+    width: 50px;
+    height: 50px;
+    transition-duration: 0.4s;
+    font-size: x-large;
+}
+
+.butt2:hover {
+    color: white;
+}
+
+.title {
+    color: rgb(255, 123, 0);
+}
+
+.xlarge {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.img {
+    width: 190px;
+    height: 190px;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 15px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(161, 161, 161);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+:hover::-webkit-scrollbar {
+    width: 2px;
+    background: rgb(161, 161, 161);
+}
+
+.textSay {
+    font-size: 20px;
+}
+
+.nonSele {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
